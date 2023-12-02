@@ -46,7 +46,7 @@ export default {
       },
       screens: {
         "wide": "1440px",
-        "xsm": "485px"
+        "xs": "485px"
       }
     },
   },
