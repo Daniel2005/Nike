@@ -68,7 +68,7 @@ const PopularProductCard = ({ imgURL, name, price, imgCard }) => {
               className="absolute text-2xl bg-transparent text-black rounded-full -top-3 -right-3 w-[30px] cursor-pointer z-50"
               onClick={closeModal}
             >
-              <i class="fas fa-window-close text-[30px]"></i>
+              <i class="fas fa-window-close text-[30px] max-sm:text-[25px]"></i>
             </button>
             <div className='mb-6 max-sm:mb-3'>
               <img src={logo} alt="" />
@@ -78,7 +78,7 @@ const PopularProductCard = ({ imgURL, name, price, imgCard }) => {
               Taking the classic look into new realm
             </p>
             <div className='flex items-center gap-x-[20px] mb-12 max-sm:mb-6'>
-              <button className='bg-[#2d2b2c] text-white text-base font-medium py-[16px] px-[40px] max-sm:py-2 max-sm:px-2 rounded-lg'>Add to Bag</button>
+              <button className='modal-button'>Add to Bag</button>
               <div className='text-[24px] max-sm:text-[16px] font-bold text-[#000000]'>{price}</div>
             </div>
             <ul className='flex gap-x-[10px]'>
@@ -92,7 +92,7 @@ const PopularProductCard = ({ imgURL, name, price, imgCard }) => {
             </ul>
             <motion.div 
             style={{x, y, rotateX, rotateY, z: 100000}}
-            className='absolute top-12 -right-[210px] w-[570px] mt-[105px] max-sm:w-[280px] max-sm:-right-[90px] max-sm:mt-[90px]'>
+            className='absolute top-12 -right-[210px] w-[545px] mt-[105px] max-sm:w-[280px] max-sm:-right-[90px] max-sm:mt-[90px]'>
               <img src={imgCard} alt="" draggable="false" className='-rotate-45'/>
             </motion.div>
             </motion.div>

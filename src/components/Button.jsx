@@ -1,7 +1,7 @@
 const Button = ( {label, iconURL, backgroundColor, textColor, borderColor, fullWidth} ) => {
   return (
     <button className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
-    ${ backgroundColor ? `${backgroundColor} ${textColor} ${borderColor}` : "text-white bg-[#147efb] hover:bg-sky-700 duration-300 ease-in-out delay-100 leading-none  border-[#147efb]"} rounded-full ${fullWidth && 'w-full'}"}`}>
+    ${ backgroundColor ? `${backgroundColor} ${textColor} ${borderColor}` : "text-white bg-[#147efb] hover:bg-sky-700 duration-150 ease-in-out delay-100 leading-none  border-[#147efb]"} rounded-full ${fullWidth && 'w-full'}"}`}>
       {label}
 
       {iconURL && <img
