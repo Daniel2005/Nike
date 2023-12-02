@@ -63,7 +63,7 @@ const PopularProductCard = ({ imgURL, name, price, imgCard }) => {
             dragElastic={0.18}
             dragConstraints={{top: 0, left: 0, right:0, bottom: 0}}
             whileTap={{cursor: 'grabbing'}}
-            className='w-[426px] max-sm:w-[260px] min-h-[500px] max-sm:min-h-[350px] bg-[#e7dcd6] relative rounded-[30px] border-[4px] border-white px-[40px] py-[24px] max-sm:px-6 cursor-grab'>
+            className='w-[426px] max-sm:w-[260px] min-h-[500px] max-sm:min-h-[350px] bg-[#e7dcd6] relative rounded-[30px] border-[4px] border-white px-[40px] py-[24px] max-sm:px-5 cursor-grab'>
               <button
               className="absolute text-2xl bg-transparent text-black rounded-full -top-3 -right-3 w-[30px] cursor-pointer z-50"
               onClick={closeModal}
@@ -92,7 +92,7 @@ const PopularProductCard = ({ imgURL, name, price, imgCard }) => {
             </ul>
             <motion.div 
             style={{x, y, rotateX, rotateY, z: 100000}}
-            className='absolute top-12 -right-[210px] w-[570px] mt-[105px] max-sm:w-[350px] max-sm:-right-[140px] max-sm:mt-[90px]'>
+            className='absolute top-12 -right-[210px] w-[570px] mt-[105px] max-sm:w-[280px] max-sm:-right-[90px] max-sm:mt-[90px]'>
               <img src={imgCard} alt="" draggable="false" className='-rotate-45'/>
             </motion.div>
             </motion.div>
