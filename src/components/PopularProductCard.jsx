@@ -92,7 +92,7 @@ const PopularProductCard = ({ imgURL, name, price, imgCard }) => {
             </ul>
             <motion.div 
             style={{x, y, rotateX, rotateY, z: 100000}}
-            className='absolute top-12 -right-[210px] w-[545px] mt-[105px] max-sm:w-[280px] max-sm:-right-[90px] max-sm:mt-[90px]'>
+            className='absolute top-12 -right-[210px] w-[545px] mt-[105px] max-sm:w-[270px] max-sm:-right-[90px] max-sm:mt-[95px]'>
               <img src={imgCard} alt="" draggable="false" className='-rotate-45'/>
             </motion.div>
             </motion.div>
